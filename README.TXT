@@ -6,3 +6,8 @@ systemctl start xinetd
 lsof -i :22
 
 for persistent setting use systemctl disable/enable
+
+
+PS 
+
+for systemd-service systemctl stop sshd.socket
